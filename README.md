@@ -13,6 +13,9 @@
 ##메인4
 ![image](https://user-images.githubusercontent.com/103983364/230627611-816230ed-c0b0-44ca-8a31-ef357b767ec7.png)
 
+##푸터
+![image](https://user-images.githubusercontent.com/103983364/230640908-48e18a74-3ee6-4e1a-8927-2c2410440bc2.png)
+
 ##Research 페이지1
 ![image](https://user-images.githubusercontent.com/103983364/230627066-ed8c8034-28aa-4d44-a741-ece6501946b9.png)
 
