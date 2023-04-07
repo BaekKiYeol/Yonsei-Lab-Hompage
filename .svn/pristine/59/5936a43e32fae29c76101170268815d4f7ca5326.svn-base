@@ -1,0 +1,277 @@
+<?php
+if (!defined("_GNUBOARD_")) exit; // 개별 페이지 접근 불가
+
+// add_stylesheet('css 구문', 출력순서); 숫자가 작을 수록 먼저 출력됨
+add_stylesheet('<link rel="stylesheet" href="'.$search_skin_url.'/style.css">', 0);
+?>
+
+
+<script>
+    $(document).ready(function(){
+        $('.loca').addClass('active');
+        $('.loca_btn.loca_btn_1').css('display','block');
+        $('.loca_btn.loca_btn_1').text('통합검색');
+        $('.loca_btn.loca_btn_1').prop("disabled", true);
+    })
+</script>
+
+<div class="search-form">
+    <div class="wrapper">
+        <!-- Search -->
+        <div class="list-title-wrap">
+            <div class="title">
+               <img src="<?php echo G5_URL ?>/assets/images/user/list-title.svg" alt="">
+                <h1>Search</h1>
+            </div>
+            <div class="title-path">
+                Home &nbsp; > <span>&ensp;Search</span>
+            </div>
+        </div>
+
+        <!-- <h2 class="search-form--tit">통합검색</h2> -->
+        <section class="sect_searchList">
+            <div class="total_sch_wrap">
+                <div class="total_sch_head_wrap">
+                    <!-- <div class="top">통합검색</div> -->
+                    <div class="bottom">
+                        <div class="bottom_txt">
+                            검색어&nbsp;<span>‘코로나’</span>에 대한 <br> 전체&nbsp;<span>‘1,763’</span>개의 결과를 찾았습니다.
+                        </div>
+                    </div>
+                </div>
+                <div class="total_sch_middle_wrap">
+                    <ul>
+                        <div class="sch_result">
+                            <div class="sch_result_txt">
+                                · <span>&nbsp;공연/전시</span><br> <p>(검색어 <span>‘코로나’</span>에 대한 검색결과 : <span>53</span>건)</p>
+                            </div>
+                            <div class="more"><a href="">+ 더보기</a></div>
+                        </div>
+                        <li>
+                            <div class="list_category">공연 > 공연일정</div>
+                            <a href="">
+                                <div class="list_tit">경주문화재단 ‘오페라 공연’ 코로나 방역수칙</div>
+                                <div class="list_cont">경주문화재단 화랑홀 임시 운영중단 안내 ○ 기간 : 2020.05.30.토 ~ 종료시 까지 ○ 경복궁 버들마루,
+                                    창덕궁 동궐마루, 덕수궁 돌담길, 국립고궁박물관 고긍뜨락, 여주 여민락 코로나 바이러스 감염증-19
+                                    확산방지를 위하여 잠정 운영중단을 알려드립니다. 관람객 여러분의 협조와 양해 부탁드립니다.
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="list_category">공연 > 공연일정</div>
+                            <a href="">
+                                <div class="list_tit">경주문화재단 ‘오페라 공연’ 코로나 방역수칙</div>
+                                <div class="list_cont">경주문화재단 화랑홀 임시 운영중단 안내 ○ 기간 : 2020.05.30.토 ~ 종료시 까지 ○ 경복궁 버들마루,
+                                    창덕궁 동궐마루, 덕수궁 돌담길, 국립고궁박물관 고긍뜨락, 여주 여민락 코로나 바이러스 감염증-19
+                                    확산방지를 위하여 잠정 운영중단을 알려드립니다. 관람객 여러분의 협조와 양해 부탁드립니다.
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <div class="sch_result">
+                            <div class="sch_result_txt">
+                                · <span>&nbsp;문화행사</span><br> <p>(검색어 <span>‘코로나’</span>에 대한 검색결과 : <span>103</span>건)</p>
+                            </div>
+                            <div class="more"><a href="">+ 더보기</a></div>
+                        </div>
+                        <li>
+                            <div class="list_category">공연 > 공연일정</div>
+                            <a href="">
+                                <div class="list_tit">경주문화재단 ‘오페라 공연’ 코로나 방역수칙</div>
+                                <div class="list_cont">경주문화재단 화랑홀 임시 운영중단 안내 ○ 기간 : 2020.05.30.토 ~ 종료시 까지 ○ 경복궁 버들마루,
+                                    창덕궁 동궐마루, 덕수궁 돌담길, 국립고궁박물관 고긍뜨락, 여주 여민락 코로나 바이러스 감염증-19
+                                    확산방지를 위하여 잠정 운영중단을 알려드립니다. 관람객 여러분의 협조와 양해 부탁드립니다.
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <div class="sch_result">
+                            <div class="sch_result_txt">
+                                · <span>&nbsp;아카데미</span><br> <p>(검색어 <span>‘코로나’</span>에 대한 검색결과 : <span>825</span>건)</p>
+                            </div>
+                            <div class="more"><a href="">+ 더보기</a></div>
+                        </div>
+                        <li>
+                            <div class="list_category">공연 > 공연일정</div>
+                            <a href="">
+                                <div class="list_tit">경주문화재단 ‘오페라 공연’ 코로나 방역수칙</div>
+                                <div class="list_cont">경주문화재단 화랑홀 임시 운영중단 안내 ○ 기간 : 2020.05.30.토 ~ 종료시 까지 ○ 경복궁 버들마루,
+                                    창덕궁 동궐마루, 덕수궁 돌담길, 국립고궁박물관 고긍뜨락, 여주 여민락 코로나 바이러스 감염증-19
+                                    확산방지를 위하여 잠정 운영중단을 알려드립니다. 관람객 여러분의 협조와 양해 부탁드립니다.
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="list_category">공연 > 공연일정</div>
+                            <a href="">
+                                <div class="list_tit">경주문화재단 ‘오페라 공연’ 코로나 방역수칙</div>
+                                <div class="list_cont">경주문화재단 화랑홀 임시 운영중단 안내 ○ 기간 : 2020.05.30.토 ~ 종료시 까지 ○ 경복궁 버들마루,
+                                    창덕궁 동궐마루, 덕수궁 돌담길, 국립고궁박물관 고긍뜨락, 여주 여민락 코로나 바이러스 감염증-19
+                                    확산방지를 위하여 잠정 운영중단을 알려드립니다. 관람객 여러분의 협조와 양해 부탁드립니다.
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="list_category">공연 > 공연일정</div>
+                            <a href="">
+                                <div class="list_tit">경주문화재단 ‘오페라 공연’ 코로나 방역수칙</div>
+                                <div class="list_cont">경주문화재단 화랑홀 임시 운영중단 안내 ○ 기간 : 2020.05.30.토 ~ 종료시 까지 ○ 경복궁 버들마루,
+                                    창덕궁 동궐마루, 덕수궁 돌담길, 국립고궁박물관 고긍뜨락, 여주 여민락 코로나 바이러스 감염증-19
+                                    확산방지를 위하여 잠정 운영중단을 알려드립니다. 관람객 여러분의 협조와 양해 부탁드립니다.
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <div class="sch_result">
+                            <div class="sch_result_txt">
+                                · <span>&nbsp;게시판</span><br> <p>(검색어 <span>‘코로나’</span>에 대한 검색결과 : <span>53</span>건)</p>
+                            </div>
+                            <div class="more"><a href="">+ 더보기</a></div>
+                        </div>
+                        <li>
+                            <div class="list_category">공연 > 공연일정</div>
+                            <a href="">
+                                <div class="list_tit">경주문화재단 ‘오페라 공연’ 코로나 방역수칙</div>
+                                <div class="list_cont">경주문화재단 화랑홀 임시 운영중단 안내 ○ 기간 : 2020.05.30.토 ~ 종료시 까지 ○ 경복궁 버들마루,
+                                    창덕궁 동궐마루, 덕수궁 돌담길, 국립고궁박물관 고긍뜨락, 여주 여민락 코로나 바이러스 감염증-19
+                                    확산방지를 위하여 잠정 운영중단을 알려드립니다. 관람객 여러분의 협조와 양해 부탁드립니다.
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+    </div>
+    </section>
+
+
+        <div id="sch_result">
+            <?php
+            if ($stx) {
+                if ($board_count) {
+            ?>
+            <section id="sch_res_ov">
+               <h2>검색어 <strong>‘<?php echo $stx ?>’</strong>에 대한 <br class="mo"> 전체 <strong><?php echo number_format($total_count) ?></strong>개의 결과를 찾았습니다.</h2>
+
+               <ul>
+                <li>
+                    <a href="#"><?php echo $bo_subject[$idx] ?></a>
+                </li>
+               </ul>
+                <h2> 전체검색 결과</h2>
+                <ul>
+                    <li>게시판 <?php echo $board_count ?>개</li>
+                    <li>게시물 <?php echo number_format($total_count) ?>개</li>
+                    <li><?php echo number_format($page) ?>/<?php echo number_format($total_page) ?> 페이지 열람 중</li>
+                </ul>
+            </section>
+            <?php
+                }
+            }
+            ?>
+
+            <?php
+            if ($stx) {
+                if ($board_count) {
+            ?>
+           <ul id="sch_res_board">
+                <li><a href="?<?php echo $search_query ?>&amp;gr_id=<?php echo $gr_id ?>" <?php echo $sch_all ?>>전체게시판</a></li>
+                <?php echo $str_board_list; ?>
+            </ul>
+            <?php
+                } else {
+            ?>
+
+            <section id="sch_res_ov">
+               <h2>검색어 <strong>‘<?php echo $stx ?>’</strong>에 대한 <br class="mo"> 전체 <strong>‘<?php echo number_format($total_count) ?>’</strong>개의 결과를 찾았습니다.</h2>
+
+               <!-- <ul>
+                <li>
+                    <a href="#"><?php echo $bo_subject[$idx] ?></a>
+                </li>
+               </ul> -->
+                <!-- <h2> 전체검색 결과</h2>
+                <ul>
+                    <li>게시판 <?php echo $board_count ?>개</li>
+                    <li>게시물 <?php echo number_format($total_count) ?>개</li>
+                    <li><?php echo number_format($page) ?>/<?php echo number_format($total_page) ?> 페이지 열람 중</li>
+                </ul> -->
+            </section>
+            <div class="empty_list"><p>검색 결과가 없습니다.</p></div>
+            <?php } }  ?>
+
+            <hr>
+
+
+            
+            <?php if ($stx && $board_count) { ?><section class="sch_res_list"><?php }  ?>
+            <?php
+
+
+            $k=0;
+            for ($idx=$table_index, $k=0; $idx<count($search_table) && $k<$rows; $idx++) {
+            ;
+
+            ?>
+            
+                <div class="search_board_result">
+                <h2><a href="<?php echo get_pretty_url($search_table[$idx], '', $search_query); ?>"><strong><?php echo $bo_subject[$idx] ?></strong> 내 결과 (<strong><?php echo $table_cnt[$search_table[$idx]]; ?></strong>건)</a></h2>
+
+
+                <a href="<?php echo get_pretty_url($search_table[$idx], '', $search_query); ?>" class="sch_more">+ 더보기</a>
+                <ul>
+                <?php
+                for ($i=0; $i<count($list[$idx]) && $k<$rows; $i++, $k++) {
+                    if ($list[$idx][$i]['wr_is_comment'])
+                    {
+                        $comment_def = '<span class="cmt_def"><i class="fa fa-commenting-o" aria-hidden="true"></i><span class="sound_only">댓글</span></span> ';
+                        $comment_href = '#c_'.$list[$idx][$i]['wr_id'];
+                    }
+                    else
+                    {
+                        $comment_def = '';
+                        $comment_href = '';
+                    }
+                ?>
+
+                    <li>
+                                
+                        <!-- <p class="search-lnb">
+                            <span>홈</span>
+                            <span>></span>
+                            <span><?php echo $bo_subject[$idx] ?></span>
+                        </p> -->
+                        <div class="search-result--cont">
+                            <div class="sch_tit">
+                                <a href="<?php echo get_pretty_url($search_table[$idx], '', $search_query); ?>" class="sch_res_title"><?php echo $comment_def ?><?php echo $list[$idx][$i]['subject'] ?></a>
+                                
+                            </div>
+                            <p><?php echo $list[$idx][$i]['content'] ?></p>
+                            <!-- <div class="sch_info">
+                                <?php echo $list[$idx][$i]['name'] ?>
+                                <span class="sch_datetime"><i class="fa fa-clock-o" aria-hidden="true"></i> <?php echo $list[$idx][$i]['wr_datetime'] ?></span>
+                            </div> -->
+
+
+                        </div>
+                        
+                    </li>
+                <?php }  ?>
+                </ul>
+                </div>
+            <?php }		//end for?>
+            <?php if ($stx && $board_count) {  ?></section><?php }  ?>
+
+            <?php echo $write_pages ?>
+
+        </div>
+    </div>
+</div>
+<!-- 전체검색 시작 { -->
+
+<!-- } 전체검색 끝 -->

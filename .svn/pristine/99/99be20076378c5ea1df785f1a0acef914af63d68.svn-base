@@ -1,0 +1,8 @@
+<svg id="그룹_15858" data-name="그룹 15858" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <circle id="타원_571" data-name="타원 571" cx="12.5" cy="12.5" r="12.5" fill="#fff"/>
+  <g id="Icon_feather-download" data-name="Icon feather-download" transform="translate(6.75 5.75)">
+    <path id="패스_6081" data-name="패스 6081" d="M16,22.5v2.556a1.278,1.278,0,0,1-1.278,1.278H5.778A1.278,1.278,0,0,1,4.5,25.056V22.5" transform="translate(-4.5 -14.833)" fill="none" stroke="#cc3ea5" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="패스_6082" data-name="패스 6082" d="M10.5,15l3.194,3.194L16.889,15" transform="translate(-7.944 -10.528)" fill="none" stroke="#cc3ea5" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="패스_6083" data-name="패스 6083" d="M18,12.167V4.5" transform="translate(-12.25 -4.5)" fill="none" stroke="#cc3ea5" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

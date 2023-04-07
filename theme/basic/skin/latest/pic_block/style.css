@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.pic_lt {position:relative; background:#fff}
+.pic_lt .lat_title {display:block;line-height:45px;font-size:1.2em;color:#253dbe;border-bottom: 2px solid #1E3A6E;padding: 0 30px;height:70px;}
+.pic_lt .lat_title a {position:relative;color:#153972;display:inline-block;font-size:44px;font-weight:800;font-family: 'SUIT', sans-serif;}
+
+.pic_lt .lt_more {position:absolute;top:11px;right:10px;display:block;width:25px;line-height:25px;color:#aaa;border-radius:3px;text-align:center;}
+.pic_lt .lt_more:hover {color:#777}
+.pic_lt ul:after {display:block;visibility:hidden;clear:both;content:""}
+/* .pic_lt ul {margin: 0 -10px} */
+.pic_lt li {float:left;width:50%;position:relative;}
+.pic_lt li.galley_li:nth-child(4n+1) {clear: both!important}
+.pic_lt li .lt_img {display:flex;}
+.pic_lt li .lt_img img {width:100%;height:auto; max-height: 359.5px; min-height: 359.5px;object-fit: cover;position:relative;}
+.pic_lt li .fa-heart {color:#ff0000}
+.pic_lt li .fa-lock {display:inline-block;line-height:14px;width:16px;font-size:0.833em;color:#4f818c;background:#cbe3e8;text-align:center;border-radius:2px;font-size:12px;border:1px solid #cbe3e8;vertical-align:middle}
+.pic_lt li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#23db79;background:#b9ffda;text-align:center;border-radius:2px;margin-left:2px;font-weight:bold;vertical-align:middle}
+.pic_lt li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#ff0000;background:#ffb9b9;text-align:center;border-radius:2px;vertical-align:middle}
+.pic_lt li .fa-caret-right {color:#bbb}
+.pic_lt li .fa-download {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#daae37;background:#ffefb9;text-align:center;border-radius:2px;vertical-align:middle}
+.pic_lt li .fa-link {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#b451fd;background:#edd3fd;text-align:center;border-radius:2px;vertical-align:middle}
+
+.pic_lt .profile_img img{border-radius:50%}
+
+.pic_lt li:nth-child(1) {
+    padding-right: 1px;
+    /* padding-bottom: 1px; */
+}
+.pic_lt li:nth-child(3) {
+    padding-right: 1px;
+    padding-top: 1px;
+}
+.pic_lt li:nth-child(4) {
+    padding-top: 1px;
+}
+
+.lt_info {padding:10px 0}
+.lt_info .lt_nick {}
+.lt_info .lt_date {color:#888}
+
+.pic_lt .empty_li {line-height:145px ;color:#666;text-align:center;padding:0}
+.pic_lt .empty_li:before {background:none;padding:0}
+
+.pic_lt .lt_cmt {background:#e9eff5;color:#3a8afd;font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;vertical-align:middle}
+.pic_lt .lt_more {position:absolute;top:11px;right:0;display:block;width:auto;font-size:28px;line-height:25px;color:#153972;border-radius:3px;text-align:center;margin-right: 30px;font-family: 'SUIT', sans-serif;}
+.pic_lt .lt_more:hover {color:#777}
+.gallery_li a:nth-child(2) {
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    bottom: 5%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    left: 14%;
+}
+
+.txt {
+    position: absolute;
+    color: #000;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'SUIT', sans-serif;
+    opacity: 0;
+}
+
+.pic_lt li .lt_img:hover .txt{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    opacity: 1;
+    transition: 0.2s ease-out;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 10%;
+}
+
+/*반응형*/
+@media (max-width: 768px) {
+    .pic_lt .lat_title {
+        padding: 0 25px;
+    }
+    .pic_lt .lat_title a {
+        font-size: 38px;
+    }
+    .pic_lt .lt_more {
+        font-size: 24px;
+        margin-right: 25px;
+    }
+    .pic_lt li .lt_img img {
+        min-height: 288px;
+    }
+    .pic_lt li ul {
+        margin: 0 -1px;
+    }
+    .pic_lt li {
+        /* padding: 1px 1px; */
+    }
+    .pic_lt li .lt_img:hover .txt {
+        font-size: 18px;
+    }
+}

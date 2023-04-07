@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.lat {position:relative;background:#fff}
+.lat .lat_title {display:flex;line-height:45px;font-size:1.2em;color:#253dbe;border-bottom: 2px solid #1E3A6E;padding: 0 30px;height:70px}
+.lat .lat_title a {position:relative;color:#153972;display:inline-block;font-size:44px;font-weight:800;font-family: 'SUIT', sans-serif;}
+
+/* .lat ul {padding:10px 0} */
+.lat li {position:relative;line-height:18px;border-bottom:1px solid #e5ecee;display:flex;align-items: center;justify-content: space-between;padding:25px 30px; max-height: 90px;}
+.lat li a {font-weight:600;font-size:22px;line-height:20px;vertical-align:middle;font-family: 'SUIT', sans-serif;}
+/* .lat li a:hover {color:#3a8afd} */
+.lat li a:hover {color: #153972;}
+.lat li .fa-heart {color:#ff0000}
+.lat li .fa-lock {display:inline-block;line-height:14px;width:16px;font-size:0.833em;color:#4f818c;background:#cbe3e8;text-align:center;border-radius:2px;font-size:12px;border:1px solid #cbe3e8;vertical-align:middle}
+.lat li .new_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#23db79;background:#b9ffda;text-align:center;border-radius:2px;margin-left:2px;font-weight:bold;vertical-align:middle}
+.lat li .hot_icon {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#ff0000;background:#ffb9b9;text-align:center;border-radius:2px;vertical-align:middle}
+.lat li .fa-caret-right {color:#bbb}
+.lat li .fa-download {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#daae37;background:#ffefb9;text-align:center;border-radius:2px;vertical-align:middle}
+.lat li .fa-link {display:inline-block;width:16px;line-height:16px;font-size:0.833em;color:#b451fd;background:#edd3fd;text-align:center;border-radius:2px;vertical-align:middle}
+
+.lat .profile_img img{border-radius:50%}
+
+.lt_info {padding:10px 0}
+.lt_info .lt_nick {}
+.lt_info .lt_date {color:#BABABA;font-size: 20px;font-family: 'SUIT', sans-serif;}
+
+.lat .empty_li {line-height:145px;color:#666;text-align:center;padding:0}
+.lat .empty_li:before {background:none;padding:0}
+
+.lat .lt_cmt {background:#e9eff5;color:#3a8afd;font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;vertical-align:middle}
+.lat .lt_more {position:absolute;top:11px;right:0;display:block;width:auto;font-size:28px;line-height:25px;color:#153972;border-radius:3px;text-align:center;margin-right:30px;font-family: 'SUIT', sans-serif;}
+.lat .lt_more:hover {color:#777}
+
+
+/*반응형*/
+@media (max-width: 1540px) {
+    .lat li a {
+        width: 75%;
+        min-height:auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        line-height: 1.1;
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .lat li {
+        padding: 22.5px 25px;
+    }
+    .lat li a {
+        width: 75%;
+        min-height:auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        line-height: 1.1;
+        font-size: 20px;
+    }
+    .lat .lat_title {
+        padding: 0 25px;
+    }
+    .lat .lt_more {
+        font-size: 24px;
+        margin-right: 25px;
+    }
+    .lt_info .lt_date {
+        font-size: 18px;
+    }
+}

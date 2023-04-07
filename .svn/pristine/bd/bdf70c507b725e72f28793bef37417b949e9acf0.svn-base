@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_9482" data-name="사각형 9482" width="26" height="26" transform="translate(-14123 -21446)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_377" data-name="마스크 그룹 377" transform="translate(14123 21446)" clip-path="url(#clip-path)">
+    <g id="Icon_feather-instagram" data-name="Icon feather-instagram" transform="translate(-14123 -21446)">
+      <path id="패스_4045" data-name="패스 4045" d="M8.114,3H18.343a5.114,5.114,0,0,1,5.114,5.114V18.343a5.114,5.114,0,0,1-5.114,5.114H8.114A5.114,5.114,0,0,1,3,18.343V8.114A5.114,5.114,0,0,1,8.114,3Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_4046" data-name="패스 4046" d="M20.2,15.426a4.091,4.091,0,1,1-3.447-3.447A4.091,4.091,0,0,1,20.2,15.426Z" transform="translate(-2.883 -2.842)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="패스_4047" data-name="패스 4047" d="M26.25,9.75h0" transform="translate(-7.396 -2.147)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

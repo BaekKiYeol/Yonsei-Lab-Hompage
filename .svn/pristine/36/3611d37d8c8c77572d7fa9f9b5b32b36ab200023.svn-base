@@ -1,0 +1,97 @@
+<?php
+if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
+
+if (G5_IS_MOBILE) {
+    include_once(G5_THEME_MOBILE_PATH.'/tail.php');
+    return;
+}
+
+if(G5_COMMUNITY_USE === false) {
+    include_once(G5_THEME_SHOP_PATH.'/shop.tail.php');
+    return;
+}
+?>
+
+
+</div>
+   
+   </div>
+    
+   </div>
+   
+   <?php if(!defined("_INDEX_")){ ?>
+   <div class="footer fp-auto-height">
+    <footer>
+       <div class="footer-inner">
+                <ul>
+                    <img src="<?php echo G5_URL ?>/assets/images/user/foot-logo.png" alt="" class="footer-logo">
+                    <li>
+                        <div class="li1">
+                            <div class="list"><a href="https://www.yonsei.ac.kr">연세대학교</a></div>
+                            <div class="line"></div>
+                            <div class="list"><a href="https://bio.yonsei.ac.kr">연세대학교 생명시스템대학</a></div>
+                            <div class="line noline"></div>
+                        </div>
+                        <div class="li2">
+                            <div class="list"><a href="https://biotech.yonsei.ac.kr">연세대학교 생명공학과</a></div>
+                            <div class="line"></div>
+                            <div class="list"><a href="https://ibs.yonsei.ac.kr">연세대학교 IBS</a></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="address">
+                        <span class="b1">Stem Cell and Biomaterial Engineering Lab</span>
+                        <span class="b2">Department of Biotechnology,<br> Yonsei University 50 Yonsei-ro,<br class="tiny"> Seodaemun-gu, Seoul 120-749, Korea.</span>
+                        <div class="foot_">
+                            <span>TEL : 82-2-2123-7743</span>
+                            <div class="line line2"></div>
+                            <span>FAX : 82-2-362-7265</span>
+                        </div>
+                        <span class="ft-copy">COPYRIGHT (C) 2011 yonsei university.<br> Stem cell and Biomaterial Engineering Lab.<br class="tiny"> All rights reserved</span>
+                        <span class="ft-copy2">ⓒ Copyright  2023 Yonsei University.<br class="tiny"> All Rights Reserved.Website made by SOTONGFIVE</span>
+                </div>
+
+            </div>
+
+       </footer>
+   </div>
+    <?php }?>
+
+
+   <!-- } 콘텐츠 끝 -->
+   
+   <hr>
+
+
+
+
+<?php
+if(G5_DEVICE_BUTTON_DISPLAY && !G5_IS_MOBILE) { ?>
+<?php
+}
+
+if ($config['cf_analytics']) {
+    echo $config['cf_analytics'];
+}
+?>
+
+<!-- } 하단 끝 -->
+
+<script>
+$(function() {
+    // 폰트 리사이즈 쿠키있으면 실행
+    font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
+});
+</script>
+<script>
+$(function() {
+    $("#top_btn").on("click", function() {
+        $("html, body").animate({scrollTop:0}, '500');
+        return false;
+    });
+});
+</script>   
+
+
+<?php
+include_once(G5_THEME_PATH."/tail.sub.php");

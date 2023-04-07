@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect y="7" width="21" height="21" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="스크롤_그룹_1" data-name="스크롤 그룹 1" transform="translate(0 -7)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="그룹_12673" data-name="그룹 12673" transform="translate(-785 -4670)">
+      <circle id="타원_571" data-name="타원 571" cx="10.5" cy="10.5" r="10.5" transform="translate(785 4677)" fill="#fff"/>
+      <text id="_" data-name="+" transform="translate(789 4694)" fill="#1a1a1a" font-size="22" font-family="IBMPlexSansKR, IBM Plex Sans KR" letter-spacing="-0.03em"><tspan x="0" y="0">+</tspan></text>
+    </g>
+  </g>
+</svg>

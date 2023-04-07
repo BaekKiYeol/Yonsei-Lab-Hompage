@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* 새글 스킨 (latest) */
+.list_title {
+    color: #F7F7F7;
+    font-size: 34px;
+    font-weight: 700;
+}
+.list_count {
+    color: #F7F7F7;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    margin-top: 20px;
+}
+.portfolio-list .basic_li {
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 60px;
+}
+.list_wrap {
+    cursor: pointer;
+}
+.list_wrap_tit {
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    height: 145px;
+    padding: 25px 25px 0;
+}
+.list_wrap_tit > p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+}
+.list_wrap_tit > h3 {
+    font-size: 24px;
+    color: #000;
+    margin-top: 5px;
+}
+.new_icon {
+    background: #E62323;
+    color: #fff;
+    border-radius: 13px;
+    width: 49px;
+    height: 21px;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -11px;
+    right: 20px;
+}
+.list_wrap_img {
+    position: relative;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    border-radius: 0 0 5px 5px;
+}
+.list_wrap_img_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.75;
+    border-radius: 0 0 5px 5px;
+}

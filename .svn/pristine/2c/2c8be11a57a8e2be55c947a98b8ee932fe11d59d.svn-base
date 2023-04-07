@@ -1,0 +1,68 @@
+$(document).ready(function(){
+
+    var device_w;
+	var winW = $(window).outerWidth();
+
+    
+        function fnGnbPc(){
+            $("#gnb .gnb_1dli .ico-ani__toggle").off('click');
+            
+            $('.gnb_list  #gnb_1dul >  li > a').on('focus mouseenter',function(e){
+                $("#hd").addClass("show");
+                $(".topMenu-bg").slideDown(300);
+                $(".gnb_2dul").slideDown(300);
+            });
+
+            $("#gnb_1dul").mouseleave(function(){
+                $("#hd").removeClass("show");
+                $(".topMenu-bg").slideUp(300);
+                $(".gnb_2dul").slideUp(200);
+            });
+        }
+
+        function fnGnbMo(){
+            $(".gnb_list  #gnb_1dul >  li > a").off('focus mouseenter');
+            $("#gnb_1dul").off('mouseleave');
+
+            $("#gnb .gnb_1dli .ico-ani__toggle").on('click',function (e) {
+                if ($(this).siblings().length > 0) {
+                    e.preventDefault();
+                }
+                if($(this).hasClass('active')){
+                    $(this).removeClass('active');
+                    $(this).parent('.gnb_1dli').removeClass('active');
+                    $(this).next('.gnb_2dul').removeClass('active');
+                    $(this).next('.gnb_2dul').slideUp(); 
+                } else {
+                    $(this).addClass('active');
+                    $(this).parent('.gnb_1dli').addClass('active');
+                    $(this).next('.gnb_2dul').addClass('active');
+                    $(this).next('.gnb_2dul').slideDown(); 
+                }
+            });
+
+        }
+
+    $(".hambur-wrap").click(function(){
+        $(this).toggleClass('open');
+        $("#gnb_1dul").toggleClass('active');
+    });
+
+
+    if(winW > 1250){
+        fnGnbPc();
+    }else if(winW <= 1250 ) {
+        fnGnbMo();
+    }
+
+
+    $(window).resize(function(){
+        var winW = $(window).outerWidth();
+        if(winW > 1250){
+            fnGnbPc();
+        } else if(winW <= 1250 )  {
+            fnGnbMo();
+        }
+});
+
+});
